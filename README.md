@@ -1,11 +1,9 @@
-[中文版 README](https://github.com/wudixiaop/ShaderlabVS/blob/master/README_CN.md)
+[中文版 README](https://github.com/veyvin/ShaderlabVS/blob/master/README_CN.md)
 
 ShaderlabVS
 ===========
 
 ShaderlabVS is a Visual Studio Plugin for Unity Shaderlab programming. Latest releae build can be found at [here](http://blog.shuiguzi.com/2014/10/28/Release/) or the Release page.
-
-If you are looking for Shaderlab extensions for Visual Studio Code, you can take look at [ShaderlabVSCode(Free)](https://marketplace.visualstudio.com/items?itemName=amlovey.shaderlabvscodefree#overview).
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/wudixiaop/ShaderlabVS/) [![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=0.8&x2=0)](http://blog.shuiguzi.com/2014/10/28/Release/)
 
@@ -72,4 +70,6 @@ __The other version are not tested, not sure if there are also work or not.__
 
 ### Buy me a coffe
 
-If you like this extension, and want to buy me a coffee. You can via [Paypal](http://paypal.me/rockylai).
+If you like this extension, and want to buy me a coffee. You can via [Paypal](http://paypal.me/rockylai) or scan below QR code to donate via Alipay.
+
+<img src='http://blog.shuiguzi.com/images/pay/alipay.png' width='360' height='360'/>

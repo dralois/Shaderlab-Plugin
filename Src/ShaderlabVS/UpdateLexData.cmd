@@ -8,12 +8,15 @@ SET LEX_LIST=3.lst
 SET DATA_APP=data.exe
 
 
-SET VS_DEV_BAT="%VS140COMNTOOLS%VsDevCmd.bat"
+SET VS_DEV_BAT="H:\Programming\Microsoft Visual Studio 2019\Common7\Tools\VsDevCmd.bat"
 
 IF NOT EXIST %VS_DEV_BAT% (
     SET VS_DEV_BAT="%VS150COMNTOOLS%VsDevCmd.bat"
     IF NOT EXIST %VS_DEV_BAT% (
     	SET VS_DEV_BAT="%VS120COMNTOOLS%VsDevCmd.bat"
+        IF NOT EXIST %VS_DEV_BAT% (
+            SET VS_DEV_BAT="%VS170COMNTOOLS%VsDevCmd.bat"
+        )
     )
 ) ELSE (
     GOTO :MAIN
@@ -112,7 +115,6 @@ DEL /q %LEX%
 DEL /q %LEX_LIST%
 DEL /q %FILE3%
 DEL /q %DATA_APP%
-GOTO :EOF
 
 :PAUSE
 pause

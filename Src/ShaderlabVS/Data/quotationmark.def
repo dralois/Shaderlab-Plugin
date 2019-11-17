@@ -1,0 +1,67 @@
+﻿# RenderType
+{%
+	%$ Name = {RenderType} $%
+	%$ Description = {Opaque Transparent} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {Opaque} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+{%
+	%$ Name = {Transparent} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {TransparentCutout} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {Background} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {Overlay} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {TreeOpaque} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {TreeTransparentCutout} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {TreeBillboard} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {Grass} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+{%
+	%$ Name = {GrassBillboard} $%
+	%$ Description = {} $%
+	%$ Format = {} $%
+%}
+
+
